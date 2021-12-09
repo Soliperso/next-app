@@ -6,9 +6,15 @@ export default function Navbar() {
       <div className='logo'>
         <h3>Products List</h3>
       </div>
-      <a>Home</a>
-      <a>About</a>
-      <a>Products Listing</a>
+      <Link href='/'>
+        <a>Home</a>
+      </Link>
+      <Link href='/about'>
+        <a>About</a>
+      </Link>
+      <Link href='/products'>
+        <a>Products Listing</a>
+      </Link>
     </nav>
   );
 }

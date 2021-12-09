@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
@@ -20,6 +21,9 @@ export default function Home() {
         consequuntur maxime, exercitationem saepe iste, placeat aperiam voluptas veniam, numquam
         veritatis commodi dolor accusantium iure porro at.
       </p>
+      <Link href='/products'>
+        <a>See Products Listing</a>
+      </Link>
       <Footer />
     </div>
   );
