@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Product List | Home</title>
-        <meta name='description' content='Product List' />
+        <title>User List | Home</title>
+        <meta name='description' content='User List' />
       </Head>
       <div>
         <h1 className='styles.title'>Homepage</h1>
@@ -24,8 +24,8 @@ export default function Home() {
           consequuntur maxime, exercitationem saepe iste, placeat aperiam voluptas veniam, numquam
           veritatis commodi dolor accusantium iure porro at.
         </p>
-        <Link href='/products'>
-          <a className='styles.btn'>See Products Listing</a>
+        <Link href='/users'>
+          <a className='styles.btn'>See Users Listing</a>
         </Link>
       </div>
     </>

@@ -13,8 +13,8 @@ export default function Navbar() {
       <Link href='/about'>
         <a>About</a>
       </Link>
-      <Link href='/products'>
-        <a>Products Listing</a>
+      <Link href='/users'>
+        <a>Users Listing</a>
       </Link>
     </nav>
   );

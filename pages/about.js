@@ -4,8 +4,8 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Product List | About</title>
-        <meta name='description' content='Product List' />
+        <title>User List | About</title>
+        <meta name='description' content='User List' />
       </Head>
       <div>
         <h1>About</h1>
