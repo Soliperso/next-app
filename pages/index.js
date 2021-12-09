@@ -6,7 +6,6 @@ import Navbar from '../components/Navbar';
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum esse pariatur eligendi
@@ -24,7 +23,6 @@ export default function Home() {
       <Link href='/products'>
         <a>See Products Listing</a>
       </Link>
-      <Footer />
     </div>
   );
 }
